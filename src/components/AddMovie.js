@@ -84,7 +84,15 @@ const AddMovie = ({ movies, setMovies }) => {
                 onChange={onChangeHandler}
               />
             </Form.Group>
-
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+              <Form.Label>trailerURL</Form.Label>
+              <Form.Control
+                name="trailerURL"
+                type="text"
+                placeholder="Enter your trailerURL"
+                onChange={onChangeHandler}
+              />
+            </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <Form.Label>ImageUrl</Form.Label>
               <Form.Control
